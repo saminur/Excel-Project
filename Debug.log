@@ -1,0 +1,691 @@
+2018-03-09 15:09:05 FATAL Main:55 - exception at reading
+java.lang.NullPointerException
+	at main.Main.main(Main.java:40)
+2018-03-09 15:11:18 FATAL Main:57 - exception at reading
+java.io.FileNotFoundException: D:\office\ReveAllPojects\exccellReadNwrite\CompiledIndex.xlsm (The process cannot access the file because it is being used by another process)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.apache.poi.openxml4j.opc.internal.FileHelper.copyFile(FileHelper.java:68)
+	at org.apache.poi.openxml4j.opc.ZipPackage.closeImpl(ZipPackage.java:353)
+	at org.apache.poi.openxml4j.opc.OPCPackage.close(OPCPackage.java:432)
+	at org.apache.poi.POIXMLDocument.close(POIXMLDocument.java:191)
+	at main.Main.main(Main.java:55)
+2018-03-09 15:16:31 FATAL Main:60 - exception at reading
+java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:994)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:399)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:351)
+	at main.Main.main(Main.java:52)
+2018-03-09 15:19:13 FATAL Main:60 - exception at reading
+java.lang.NullPointerException
+	at main.Main.main(Main.java:52)
+2018-03-09 17:17:39 FATAL Main:56 - exception at reading
+java.lang.NullPointerException
+	at main.AdjDivCalculation.calculateAdjDiv(AdjDivCalculation.java:35)
+	at main.Main.main(Main.java:31)
+2018-03-09 17:19:43 FATAL Main:56 - exception at reading
+java.lang.NullPointerException
+	at main.AdjDivCalculation.calculateAdjDiv(AdjDivCalculation.java:35)
+	at main.Main.main(Main.java:31)
+2018-03-09 17:30:06 FATAL Main:56 - exception at reading
+java.lang.NullPointerException
+	at main.AdjDivCalculation.calculateAdjDiv(AdjDivCalculation.java:35)
+	at main.Main.main(Main.java:31)
+2018-03-09 17:43:34 FATAL Main:57 - exception at reading
+java.lang.NullPointerException
+	at main.AdjDivCalculation.calculateAdjDiv(AdjDivCalculation.java:85)
+	at main.Main.main(Main.java:32)
+2018-03-09 18:10:34 FATAL Main:57 - exception at reading
+java.lang.NullPointerException
+	at main.AdjDivCalculation.calculateAdjDiv(AdjDivCalculation.java:78)
+	at main.Main.main(Main.java:32)
+2018-03-09 18:11:58 FATAL Main:57 - exception at reading
+java.lang.NullPointerException
+	at main.AdjDivCalculation.calculateAdjDiv(AdjDivCalculation.java:80)
+	at main.Main.main(Main.java:32)
+2018-03-09 18:15:46 FATAL Main:57 - exception at reading
+java.lang.NullPointerException
+	at main.AdjDivCalculation.calculateAdjDiv(AdjDivCalculation.java:84)
+	at main.Main.main(Main.java:32)
+2018-03-09 18:36:30 FATAL Main:57 - exception at reading
+java.lang.NullPointerException
+	at main.AdjDivCalculation.calculateAdjDiv(AdjDivCalculation.java:91)
+	at main.Main.main(Main.java:32)
+2018-03-09 18:40:25 FATAL Main:57 - exception at reading
+java.lang.NullPointerException
+	at main.AdjDivCalculation.calculateAdjDiv(AdjDivCalculation.java:73)
+	at main.Main.main(Main.java:32)
+2018-03-09 18:42:50 FATAL Main:57 - exception at reading
+java.lang.NullPointerException
+	at main.AdjDivCalculation.calculateAdjDiv(AdjDivCalculation.java:90)
+	at main.Main.main(Main.java:32)
+2018-03-09 18:48:49 FATAL Main:57 - exception at reading
+java.lang.NullPointerException
+	at main.AdjDivCalculation.calculateAdjDiv(AdjDivCalculation.java:90)
+	at main.Main.main(Main.java:32)
+2018-03-09 19:12:14 FATAL Main:57 - exception at reading
+java.lang.ClassCastException: java.io.File cannot be cast to org.apache.poi.ss.usermodel.Workbook
+	at main.AdjDivCalculation.calculateAdjDiv(AdjDivCalculation.java:131)
+	at main.Main.main(Main.java:32)
+2018-03-09 19:36:10 FATAL AdjDivCalculation:140 - exception : java.io.FileNotFoundException: AdjDiv.xlsm (The requested operation cannot be performed on a file with a user-mapped section open)
+2018-03-09 19:41:13 FATAL AdjDivCalculation:140 - exception : java.io.FileNotFoundException: AdjDiv.xlsm (The requested operation cannot be performed on a file with a user-mapped section open)
+2018-03-09 19:43:06 FATAL AdjDivCalculation:140 - exception : java.io.FileNotFoundException: AdjDiv.xlsm
+2018-03-09 19:43:37 FATAL AdjDivCalculation:140 - exception : java.io.FileNotFoundException: AdjDiv.xlsm
+2018-03-09 20:21:25 FATAL AdjDivCalculation:118 - exception : java.io.FileNotFoundException: AdjDiv.xls (The process cannot access the file because it is being used by another process)
+2018-03-09 20:29:05 FATAL Main:67 - exception at reading
+java.lang.NullPointerException
+	at main.AdjDivCalculation.calculateAdjDiv(AdjDivCalculation.java:68)
+	at main.Main.main(Main.java:33)
+2018-03-09 20:30:31 FATAL Main:67 - exception at reading
+java.lang.NullPointerException
+	at main.AdjDivCalculation.calculateAdjDiv(AdjDivCalculation.java:68)
+	at main.Main.main(Main.java:33)
+2018-03-09 20:32:08 FATAL Main:67 - exception at reading
+java.lang.IllegalStateException: Cannot get a text value from a numeric formula cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:994)
+	at org.apache.poi.xssf.usermodel.XSSFCell.checkFormulaCachedValueType(XSSFCell.java:407)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:395)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:351)
+	at main.AdjDivCalculation.calculateAdjDiv(AdjDivCalculation.java:65)
+	at main.Main.main(Main.java:33)
+2018-03-09 22:02:10 FATAL Main:64 - exception at reading
+org.apache.poi.openxml4j.exceptions.InvalidOperationException: Can't open the specified file: 'AdjDiv.xls'
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:135)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:257)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:202)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:302)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:29)
+	at main.Main.main(Main.java:45)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:220)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:150)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:164)
+	at org.apache.poi.openxml4j.util.ZipSecureFile.<init>(ZipSecureFile.java:142)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipFile(ZipHelper.java:158)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:133)
+	... 5 more
+2018-03-09 22:04:20 FATAL Main:64 - exception at reading
+org.apache.poi.openxml4j.exceptions.InvalidOperationException: Can't open the specified file: 'AdjDiv.xls'
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:135)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:257)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:202)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:302)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:29)
+	at main.Main.main(Main.java:45)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:220)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:150)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:164)
+	at org.apache.poi.openxml4j.util.ZipSecureFile.<init>(ZipSecureFile.java:142)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipFile(ZipHelper.java:158)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:133)
+	... 5 more
+2018-03-09 22:28:02 FATAL AdjDivCalculation:115 - exception : java.io.FileNotFoundException: AdjDiv.xls (The process cannot access the file because it is being used by another process)
+2018-03-09 22:28:02 FATAL AdjRightCalculation:104 - exception : java.io.FileNotFoundException: AdjRight.xls (The process cannot access the file because it is being used by another process)
+2018-03-09 22:28:02 FATAL MCap:111 - exception : java.io.FileNotFoundException: MCap.xls (The process cannot access the file because it is being used by another process)
+2018-03-09 22:28:03 FATAL Main:80 - exception at reading
+java.io.FileNotFoundException: AdjDiv.xls (The process cannot access the file because it is being used by another process)
+	at java.io.RandomAccessFile.open(Native Method)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at org.apache.poi.poifs.nio.FileBackedDataSource.newSrcFile(FileBackedDataSource.java:158)
+	at org.apache.poi.poifs.nio.FileBackedDataSource.<init>(FileBackedDataSource.java:64)
+	at org.apache.poi.poifs.filesystem.NPOIFSFileSystem.<init>(NPOIFSFileSystem.java:220)
+	at org.apache.poi.poifs.filesystem.NPOIFSFileSystem.<init>(NPOIFSFileSystem.java:168)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:280)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:252)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:231)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:33)
+	at main.Main.main(Main.java:45)
+2018-03-09 22:28:59 FATAL Main:80 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a error cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:69)
+	at main.Main.main(Main.java:45)
+2018-03-09 22:29:44 FATAL Main:80 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a error cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:69)
+	at main.Main.main(Main.java:45)
+2018-03-09 22:34:25 FATAL Main:80 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a error cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:69)
+	at main.Main.main(Main.java:45)
+2018-03-09 22:35:15 FATAL Main:80 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a error cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:69)
+	at main.Main.main(Main.java:45)
+2018-03-09 22:44:10 DEBUG Main:31 - file name TDivisor: TDivisor.xls
+2018-03-09 22:45:09 DEBUG Main:31 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 22:55:52 DEBUG TDivisor:31 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 22:55:52 FATAL TDivisor:82 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a error cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:71)
+	at main.Main.main(Main.java:45)
+2018-03-09 22:58:46 DEBUG TDivisor:32 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 22:58:46 FATAL TDivisor:83 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a error cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:72)
+	at main.Main.main(Main.java:45)
+2018-03-09 23:00:33 DEBUG TDivisor:32 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:00:34 FATAL TDivisor:83 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a error cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:72)
+	at main.Main.main(Main.java:45)
+2018-03-09 23:02:39 DEBUG TDivisor:45 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:02:39 FATAL TDivisor:85 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a error cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:74)
+	at main.Main.main(Main.java:45)
+2018-03-09 23:04:01 DEBUG TDivisor:44 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:04:01 FATAL TDivisor:84 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a error cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:73)
+	at main.Main.main(Main.java:45)
+2018-03-09 23:06:45 DEBUG TDivisor:44 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:06:45 FATAL TDivisor:84 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a error cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:73)
+	at main.Main.main(Main.java:45)
+2018-03-09 23:14:31 DEBUG TDivisor:52 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:14:31 FATAL TDivisor:92 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a error cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:81)
+	at main.Main.main(Main.java:45)
+2018-03-09 23:19:22 DEBUG TDivisor:52 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:19:22 FATAL TDivisor:93 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a error cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:82)
+	at main.Main.main(Main.java:45)
+2018-03-09 23:24:31 DEBUG TDivisor:52 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:24:31 FATAL TDivisor:114 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a error cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:103)
+	at main.Main.main(Main.java:45)
+2018-03-09 23:31:49 DEBUG TDivisor:55 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:31:49 FATAL TDivisor:117 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a error cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:106)
+	at main.Main.main(Main.java:45)
+2018-03-09 23:36:44 DEBUG TDivisor:55 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:36:44 FATAL TDivisor:117 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a error cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:106)
+	at main.Main.main(Main.java:45)
+2018-03-09 23:37:11 DEBUG TDivisor:55 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:37:11 FATAL TDivisor:117 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a error cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:106)
+	at main.Main.main(Main.java:45)
+2018-03-09 23:37:58 DEBUG TDivisor:55 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:39:00 FATAL TDivisor:117 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a error cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:106)
+	at main.Main.main(Main.java:45)
+2018-03-09 23:39:30 DEBUG TDivisor:55 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:39:30 FATAL TDivisor:117 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a error cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:106)
+	at main.Main.main(Main.java:45)
+2018-03-09 23:42:15 DEBUG TDivisor:55 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:43:38 DEBUG TDivisor:55 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:45:54 DEBUG TDivisor:55 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:46:36 DEBUG TDivisor:55 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:49:18 DEBUG TDivisor:55 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:49:18 FATAL TDivisor:102 - exception at reading
+java.lang.NullPointerException
+	at main.TDivisor.calculateTDivisor(TDivisor.java:78)
+	at main.Main.main(Main.java:45)
+2018-03-09 23:51:12 DEBUG TDivisor:55 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:51:12 FATAL TDivisor:100 - exception at reading
+java.lang.NullPointerException
+	at main.TDivisor.calculateTDivisor(TDivisor.java:78)
+	at main.Main.main(Main.java:45)
+2018-03-09 23:52:02 DEBUG TDivisor:55 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:52:02 FATAL TDivisor:100 - exception at reading
+java.lang.NullPointerException
+	at main.TDivisor.calculateTDivisor(TDivisor.java:78)
+	at main.Main.main(Main.java:45)
+2018-03-09 23:52:44 DEBUG TDivisor:55 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-09 23:52:44 FATAL TDivisor:100 - exception at reading
+java.lang.NullPointerException
+	at main.TDivisor.calculateTDivisor(TDivisor.java:78)
+	at main.Main.main(Main.java:45)
+2018-03-09 23:53:51 DEBUG TDivisor:55 - file name TDivisor: D:\office\ReveAllPojects\exccellReadNwrite\TDivisor.xls
+2018-03-11 13:26:35 DEBUG TDivisor:55 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 13:26:35 FATAL TDivisor:103 - exception at reading
+java.lang.NullPointerException
+	at main.TDivisor.calculateTDivisor(TDivisor.java:91)
+	at main.Main.main(Main.java:45)
+2018-03-11 13:35:06 FATAL AdjDivCalculation:115 - exception : java.io.FileNotFoundException: AdjDiv.xls (The requested operation cannot be performed on a file with a user-mapped section open)
+2018-03-11 13:35:06 FATAL AdjRightCalculation:104 - exception : java.io.FileNotFoundException: AdjRight.xls (The requested operation cannot be performed on a file with a user-mapped section open)
+2018-03-11 13:35:06 FATAL MCap:111 - exception : java.io.FileNotFoundException: MCap.xls (The requested operation cannot be performed on a file with a user-mapped section open)
+2018-03-11 13:38:13 FATAL AdjDivCalculation:115 - exception : java.io.FileNotFoundException: AdjDiv.xls (The requested operation cannot be performed on a file with a user-mapped section open)
+2018-03-11 13:38:19 FATAL AdjRightCalculation:104 - exception : java.io.FileNotFoundException: AdjRight.xls (The requested operation cannot be performed on a file with a user-mapped section open)
+2018-03-11 13:38:34 FATAL MCap:111 - exception : java.io.FileNotFoundException: MCap.xls (The requested operation cannot be performed on a file with a user-mapped section open)
+2018-03-11 14:13:15 FATAL AdjDivCalculation:115 - exception : java.io.FileNotFoundException: AdjDiv.xls (The requested operation cannot be performed on a file with a user-mapped section open)
+2018-03-11 14:13:33 FATAL AdjRightCalculation:104 - exception : java.io.FileNotFoundException: AdjRight.xls (The requested operation cannot be performed on a file with a user-mapped section open)
+2018-03-11 14:13:40 FATAL MCap:111 - exception : java.io.FileNotFoundException: MCap.xls (The requested operation cannot be performed on a file with a user-mapped section open)
+2018-03-11 14:13:49 DEBUG TDivisor:55 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 14:19:50 FATAL AdjDivCalculation:115 - exception : java.io.FileNotFoundException: AdjDiv.xls (The requested operation cannot be performed on a file with a user-mapped section open)
+2018-03-11 14:19:50 FATAL AdjRightCalculation:104 - exception : java.io.FileNotFoundException: AdjRight.xls (The requested operation cannot be performed on a file with a user-mapped section open)
+2018-03-11 14:23:38 FATAL MCap:111 - exception : java.io.FileNotFoundException: MCap.xls (The requested operation cannot be performed on a file with a user-mapped section open)
+2018-03-11 15:38:49 FATAL Main:75 - exception at reading
+org.apache.poi.openxml4j.exceptions.InvalidOperationException: Can't open the specified file: 'CompiledIndex.xls'
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:135)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:257)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:202)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:302)
+	at main.Main.main(Main.java:25)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.apache.poi.openxml4j.util.ZipSecureFile.<init>(ZipSecureFile.java:142)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipFile(ZipHelper.java:158)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:133)
+	... 4 more
+2018-03-11 15:42:13 FATAL Main:75 - exception at reading
+org.apache.poi.openxml4j.exceptions.InvalidOperationException: Can't open the specified file: 'CompiledIndex.xls'
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:135)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:257)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:202)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:302)
+	at main.Main.main(Main.java:25)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.apache.poi.openxml4j.util.ZipSecureFile.<init>(ZipSecureFile.java:142)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipFile(ZipHelper.java:158)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:133)
+	... 4 more
+2018-03-11 15:43:30 FATAL Main:75 - exception at reading
+org.apache.poi.openxml4j.exceptions.InvalidOperationException: Can't open the specified file: 'CompiledIndex.xls'
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:135)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:257)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:202)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:302)
+	at main.Main.main(Main.java:25)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.apache.poi.openxml4j.util.ZipSecureFile.<init>(ZipSecureFile.java:142)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipFile(ZipHelper.java:158)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:133)
+	... 4 more
+2018-03-11 15:46:35 FATAL Main:75 - exception at reading
+org.apache.poi.openxml4j.exceptions.InvalidOperationException: Can't open the specified file: 'CompiledIndex.xls'
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:135)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:257)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:202)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:302)
+	at main.Main.main(Main.java:25)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.apache.poi.openxml4j.util.ZipSecureFile.<init>(ZipSecureFile.java:142)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipFile(ZipHelper.java:158)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:133)
+	... 4 more
+2018-03-11 15:49:11 FATAL Main:75 - exception at reading
+org.apache.poi.openxml4j.exceptions.InvalidOperationException: Can't open the specified file: 'CompiledIndex.xls'
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:135)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:257)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:202)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:302)
+	at main.Main.main(Main.java:25)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.apache.poi.openxml4j.util.ZipSecureFile.<init>(ZipSecureFile.java:142)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipFile(ZipHelper.java:158)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:133)
+	... 4 more
+2018-03-11 15:51:11 FATAL Main:75 - exception at reading
+org.apache.poi.openxml4j.exceptions.InvalidOperationException: Can't open the specified file: 'CompiledIndex.xls'
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:135)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:257)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:202)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:302)
+	at main.Main.main(Main.java:25)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.apache.poi.openxml4j.util.ZipSecureFile.<init>(ZipSecureFile.java:142)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipFile(ZipHelper.java:158)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:133)
+	... 4 more
+2018-03-11 16:12:27 FATAL AdjDivCalculation:116 - exception : java.io.FileNotFoundException: AdjDiv.xls (The process cannot access the file because it is being used by another process)
+2018-03-11 16:12:27 FATAL AdjRightCalculation:105 - exception : java.io.FileNotFoundException: AdjRight.xls (The process cannot access the file because it is being used by another process)
+2018-03-11 16:19:02 FATAL AdjDivCalculation:116 - exception : java.io.FileNotFoundException: AdjDiv.xls (The process cannot access the file because it is being used by another process)
+2018-03-11 16:19:02 FATAL AdjRightCalculation:105 - exception : java.io.FileNotFoundException: AdjRight.xls (The process cannot access the file because it is being used by another process)
+2018-03-11 16:23:48 FATAL AdjDivCalculation:117 - exception : java.io.FileNotFoundException: AdjDiv.xls (The process cannot access the file because it is being used by another process)
+2018-03-11 16:23:48 FATAL AdjRightCalculation:106 - exception : java.io.FileNotFoundException: AdjRight.xls (The process cannot access the file because it is being used by another process)
+2018-03-11 16:25:57 FATAL AdjDivCalculation:117 - exception : java.io.FileNotFoundException: AdjDiv.xls (The process cannot access the file because it is being used by another process)
+2018-03-11 16:29:44 FATAL AdjDivCalculation:117 - exception : java.io.FileNotFoundException: AdjDiv.xls (The process cannot access the file because it is being used by another process)
+2018-03-11 16:32:45 FATAL practice:83 - exception at reading
+java.lang.NullPointerException
+	at main.MCap.calculateMCap(MCap.java:91)
+	at main.practice.main(practice.java:47)
+2018-03-11 16:35:10 FATAL AdjDivCalculation:117 - exception : java.io.FileNotFoundException: AdjDiv.xls (The process cannot access the file because it is being used by another process)
+2018-03-11 16:35:10 FATAL AdjRightCalculation:106 - exception : java.io.FileNotFoundException: AdjRight.xls (The process cannot access the file because it is being used by another process)
+2018-03-11 16:35:10 FATAL TDivisor:104 - exception at reading
+java.io.FileNotFoundException: AdjDiv.xls (The process cannot access the file because it is being used by another process)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at org.apache.poi.poifs.nio.FileBackedDataSource.newSrcFile(FileBackedDataSource.java:158)
+	at org.apache.poi.poifs.nio.FileBackedDataSource.<init>(FileBackedDataSource.java:64)
+	at org.apache.poi.poifs.filesystem.NPOIFSFileSystem.<init>(NPOIFSFileSystem.java:220)
+	at org.apache.poi.poifs.filesystem.NPOIFSFileSystem.<init>(NPOIFSFileSystem.java:168)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:280)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:252)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:231)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:35)
+	at main.practice.main(practice.java:51)
+2018-03-11 16:43:42 FATAL practice:83 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a text cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.MCap.calculateMCap(MCap.java:96)
+	at main.practice.main(practice.java:47)
+2018-03-11 16:48:17 DEBUG TDivisor:55 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 16:48:17 FATAL TDivisor:104 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a text cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:82)
+	at main.practice.main(practice.java:51)
+2018-03-11 18:58:45 FATAL practice:83 - exception at reading
+java.lang.IllegalStateException: No header mapping was specified, the record values can't be accessed by name
+	at org.apache.commons.csv.CSVRecord.get(CSVRecord.java:99)
+	at main.sector.sectorValues(sector.java:40)
+	at main.AdjDivCalculation.calculateAdjDiv(AdjDivCalculation.java:48)
+	at main.practice.main(practice.java:39)
+2018-03-11 19:00:27 DEBUG TDivisor:55 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 19:00:27 FATAL TDivisor:104 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a text cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:82)
+	at main.practice.main(practice.java:51)
+2018-03-11 19:05:20 DEBUG TDivisor:55 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 19:05:20 FATAL TDivisor:104 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a text cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:82)
+	at main.practice.main(practice.java:51)
+2018-03-11 19:11:41 DEBUG TDivisor:55 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 19:11:41 FATAL TDivisor:104 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a text cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:82)
+	at main.practice.main(practice.java:51)
+2018-03-11 19:13:16 DEBUG TDivisor:55 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 19:13:16 FATAL TDivisor:104 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a text cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:82)
+	at main.practice.main(practice.java:51)
+2018-03-11 19:14:16 DEBUG TDivisor:55 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 19:14:16 FATAL TDivisor:104 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a text cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:82)
+	at main.practice.main(practice.java:51)
+2018-03-11 19:16:46 DEBUG TDivisor:55 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 19:16:50 FATAL TDivisor:104 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a text cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:82)
+	at main.practice.main(practice.java:51)
+2018-03-11 19:52:24 DEBUG TDivisor:57 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 19:52:24 FATAL TDivisor:120 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a text cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:104)
+	at main.practice.main(practice.java:52)
+2018-03-11 19:53:34 DEBUG TDivisor:57 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 19:53:34 FATAL TDivisor:120 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a text cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:104)
+	at main.practice.main(practice.java:52)
+2018-03-11 19:54:00 DEBUG TDivisor:57 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 19:54:00 FATAL TDivisor:120 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a text cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:104)
+	at main.practice.main(practice.java:52)
+2018-03-11 19:54:42 DEBUG TDivisor:57 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 19:54:42 FATAL TDivisor:120 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a text cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:104)
+	at main.practice.main(practice.java:52)
+2018-03-11 19:54:57 DEBUG TDivisor:57 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 19:54:57 FATAL TDivisor:120 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a text cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:104)
+	at main.practice.main(practice.java:52)
+2018-03-11 19:55:16 DEBUG TDivisor:57 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 19:55:16 FATAL TDivisor:120 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a text cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:104)
+	at main.practice.main(practice.java:52)
+2018-03-11 19:55:52 DEBUG TDivisor:57 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 19:55:52 FATAL TDivisor:120 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a text cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:104)
+	at main.practice.main(practice.java:52)
+2018-03-11 19:57:57 DEBUG TDivisor:57 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 20:01:26 DEBUG TDivisor:57 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 20:01:26 FATAL TDivisor:124 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a text cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:108)
+	at main.practice.main(practice.java:52)
+2018-03-11 20:03:15 DEBUG TDivisor:57 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 20:03:15 FATAL TDivisor:124 - exception at reading
+java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:717)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:700)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:89)
+	at main.practice.main(practice.java:52)
+2018-03-11 20:04:30 DEBUG TDivisor:57 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 20:05:42 FATAL TDivisor:124 - exception at reading
+java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:717)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:700)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:89)
+	at main.practice.main(practice.java:52)
+2018-03-11 20:05:56 DEBUG TDivisor:57 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 20:05:56 FATAL TDivisor:124 - exception at reading
+java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:717)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:700)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:89)
+	at main.practice.main(practice.java:52)
+2018-03-11 20:09:28 DEBUG TDivisor:57 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 20:13:18 DEBUG TDivisor:52 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 20:13:18 FATAL TDivisor:119 - exception at reading
+java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:717)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:700)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:84)
+	at main.practice.main(practice.java:52)
+2018-03-11 20:15:25 DEBUG TDivisor:52 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 20:15:25 FATAL TDivisor:119 - exception at reading
+java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:717)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:700)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:84)
+	at main.practice.main(practice.java:52)
+2018-03-11 20:16:00 DEBUG TDivisor:52 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 20:16:00 FATAL TDivisor:119 - exception at reading
+java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:717)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:700)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:84)
+	at main.practice.main(practice.java:52)
+2018-03-11 20:16:36 DEBUG TDivisor:52 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 20:16:36 FATAL TDivisor:119 - exception at reading
+java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:717)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:700)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:84)
+	at main.practice.main(practice.java:52)
+2018-03-11 20:17:43 DEBUG TDivisor:52 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 20:17:43 FATAL TDivisor:119 - exception at reading
+java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:717)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:700)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:84)
+	at main.practice.main(practice.java:52)
+2018-03-11 20:19:23 DEBUG TDivisor:52 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 20:19:23 FATAL TDivisor:119 - exception at reading
+java.lang.IllegalStateException: Cannot get a numeric value from a text cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getNumericCellValue(HSSFCell.java:665)
+	at main.TDivisor.calculateTDivisor(TDivisor.java:94)
+	at main.practice.main(practice.java:52)
+2018-03-11 20:20:24 DEBUG TDivisor:52 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 20:20:25 FATAL TDivisor:119 - exception at reading
+java.lang.NullPointerException
+	at main.TDivisor.calculateTDivisor(TDivisor.java:69)
+	at main.practice.main(practice.java:52)
+2018-03-11 20:22:35 DEBUG TDivisor:52 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 20:22:35 FATAL TDivisor:122 - exception at reading
+java.lang.NullPointerException
+	at main.TDivisor.calculateTDivisor(TDivisor.java:72)
+	at main.practice.main(practice.java:52)
+2018-03-11 20:23:16 DEBUG TDivisor:52 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 20:31:26 DEBUG TDivisor:54 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 20:55:20 DEBUG TDivisor:54 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-11 20:55:21 DEBUG TReturn:46 - file name TReturn: G:\exccellReadNwrite\TReturn.xls
+2018-03-12 11:31:37 DEBUG TDivisor:54 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-12 11:31:38 DEBUG TReturn:46 - file name TReturn: G:\exccellReadNwrite\TReturn.xls
+2018-03-12 11:31:38 DEBUG FinalCalculation:51 - file name TDivisor: G:\exccellReadNwrite\IndexVol.xls
+2018-03-12 11:31:38 FATAL FinalCalculation:188 - exception at reading
+java.lang.NullPointerException
+	at main.FinalCalculation.calculateBySectors(FinalCalculation.java:85)
+	at main.practice.main(practice.java:60)
+2018-03-12 11:34:25 DEBUG TDivisor:54 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-12 11:34:26 DEBUG TReturn:46 - file name TReturn: G:\exccellReadNwrite\TReturn.xls
+2018-03-12 11:34:26 DEBUG FinalCalculation:51 - file name TDivisor: G:\exccellReadNwrite\IndexVol.xls
+2018-03-12 11:34:26 FATAL FinalCalculation:190 - exception at reading
+java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:717)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:700)
+	at main.FinalCalculation.calculateBySectors(FinalCalculation.java:87)
+	at main.practice.main(practice.java:60)
+2018-03-12 11:35:33 DEBUG TDivisor:54 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-12 11:35:34 DEBUG TReturn:46 - file name TReturn: G:\exccellReadNwrite\TReturn.xls
+2018-03-12 11:35:34 DEBUG FinalCalculation:51 - file name TDivisor: G:\exccellReadNwrite\IndexVol.xls
+2018-03-12 11:35:34 FATAL FinalCalculation:190 - exception at reading
+java.lang.NullPointerException
+	at main.FinalCalculation.calculateBySectors(FinalCalculation.java:87)
+	at main.practice.main(practice.java:60)
+2018-03-12 11:36:09 DEBUG TDivisor:54 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-12 11:36:10 DEBUG TReturn:46 - file name TReturn: G:\exccellReadNwrite\TReturn.xls
+2018-03-12 11:36:10 DEBUG FinalCalculation:51 - file name TDivisor: G:\exccellReadNwrite\IndexVol.xls
+2018-03-12 11:36:10 FATAL FinalCalculation:190 - exception at reading
+java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:640)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:717)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:700)
+	at main.FinalCalculation.calculateBySectors(FinalCalculation.java:124)
+	at main.practice.main(practice.java:60)
+2018-03-12 11:38:47 DEBUG TDivisor:54 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-12 11:38:47 DEBUG TReturn:46 - file name TReturn: G:\exccellReadNwrite\TReturn.xls
+2018-03-12 11:38:48 DEBUG FinalCalculation:51 - file name TDivisor: G:\exccellReadNwrite\IndexVol.xls
+2018-03-12 11:44:49 DEBUG TDivisor:54 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-12 11:44:50 DEBUG TReturn:46 - file name TReturn: G:\exccellReadNwrite\TReturn.xls
+2018-03-12 11:44:50 DEBUG FinalCalculation:51 - file name TDivisor: G:\exccellReadNwrite\IndexVol.xls
+2018-03-12 11:45:48 DEBUG TDivisor:54 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-12 11:45:48 DEBUG TReturn:46 - file name TReturn: G:\exccellReadNwrite\TReturn.xls
+2018-03-12 11:45:49 DEBUG FinalCalculation:51 - file name TDivisor: G:\exccellReadNwrite\IndexVol.xls
+2018-03-12 11:46:54 DEBUG TDivisor:54 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-12 11:46:55 DEBUG TReturn:46 - file name TReturn: G:\exccellReadNwrite\TReturn.xls
+2018-03-12 11:46:55 DEBUG FinalCalculation:51 - file name TDivisor: G:\exccellReadNwrite\IndexVol.xls
+2018-03-12 11:49:09 DEBUG TDivisor:54 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-12 11:49:10 DEBUG TReturn:46 - file name TReturn: G:\exccellReadNwrite\TReturn.xls
+2018-03-12 11:49:11 DEBUG FinalCalculation:51 - file name TDivisor: G:\exccellReadNwrite\IndexVol.xls
+2018-03-12 11:49:48 DEBUG TDivisor:54 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-12 11:49:48 DEBUG TReturn:46 - file name TReturn: G:\exccellReadNwrite\TReturn.xls
+2018-03-12 11:49:49 DEBUG FinalCalculation:51 - file name TDivisor: G:\exccellReadNwrite\IndexVol.xls
+2018-03-12 11:50:11 DEBUG TDivisor:54 - file name TDivisor: G:\exccellReadNwrite\TDivisor.xls
+2018-03-12 11:50:12 DEBUG TReturn:46 - file name TReturn: G:\exccellReadNwrite\TReturn.xls
+2018-03-12 11:50:12 DEBUG FinalCalculation:51 - file name TDivisor: G:\exccellReadNwrite\IndexVol.xls
